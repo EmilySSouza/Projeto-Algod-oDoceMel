@@ -1,0 +1,74 @@
+@font-face{
+    font-family: alegra;
+    src: url("../Fonts/alegreya-sans-black.ttf");
+}
+
+body
+{
+    background-color: #754316 !important;
+    font-family: alegra !important;
+}
+
+#cadastro
+{
+    color: #F9C903;
+    text-align: center;
+    font-size: xx-large;
+    position: absolute;
+    left: 608px;
+    top: 18px;
+}
+
+.esquerda
+{
+    color: #F9C903;
+    text-align: center;
+    font-size: 28px;
+    margin-left: 90px;
+    position: absolute;
+}
+
+.direita
+{
+    color: #F9C903;
+    text-align: center;
+    font-size: 28px;
+    margin-left: 840px;
+    position: absolute;
+}
+
+input
+{
+    height: 38px;
+    width: 411px;
+    margin-right: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#termo
+{
+    position: absolute;
+    color: #fff;
+    top: 550px;
+    margin-left: 460px;
+}
+
+#confirmarCadastro
+{
+    position: absolute;
+    background-color: #D87A34;
+    color: #F9C903;
+    top: 580px;
+    margin-left: 505px;
+    width: 300px;
+    height: 46px;
+    font-size: 30px;
+    font-family: alegra;
+}
+
+#voltar
+{
+    height: 55px;
+}
+

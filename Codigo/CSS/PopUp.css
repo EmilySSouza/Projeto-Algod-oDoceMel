@@ -1,0 +1,2826 @@
+@font-face {
+    font-family: Alegra;
+    src: url('../Fonts/alegreya-sans-black.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#bg01{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg01:target{
+    display: block;
+}
+
+#bg01:target ~ .box01{
+    top: 150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg02{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg02:target{
+    display: block;
+}
+
+#bg02:target ~ .box02{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg03{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg03:target{
+    display: block;
+}
+
+#bg03:target ~ .box03{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg04{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg04:target{
+    display: block;
+}
+
+#bg04:target ~ .box04{
+    top: 150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg05{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg05:target{
+    display: block;
+}
+
+#bg05:target ~ .box05{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg06{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg06:target{
+    display: block;
+}
+
+#bg06:target ~ .box06{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg07{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg07:target{
+    display: block;
+}
+
+#bg07:target ~ .box07{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg08{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg08:target{
+    display: block;
+}
+
+#bg08:target ~ .box08{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg09{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg09:target{
+    display: block;
+}
+
+#bg09:target ~ .box09{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg10{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg10:target{
+    display: block;
+}
+
+#bg10:target ~ .box10{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg11{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg11:target{
+    display: block;
+}
+
+#bg11:target ~ .box11{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg12{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg12:target{
+    display: block;
+}
+
+#bg12:target ~ .box12{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg13{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg13:target{
+    display: block;
+}
+
+#bg13:target ~ .box13{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg14{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg14:target{
+    display: block;
+}
+
+#bg14:target ~ .box14{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg15{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg15:target{
+    display: block;
+}
+
+#bg15:target ~ .box15{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg16{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg16:target{
+    display: block;
+}
+
+#bg16:target ~ .box16{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg17{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg17:target{
+    display: block;
+}
+
+#bg17:target ~ .box17{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg18{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg18:target{
+    display: block;
+}
+
+#bg18:target ~ .box18{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg19{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg19:target{
+    display: block;
+}
+
+#bg19:target ~ .box19{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg20{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg20:target{
+    display: block;
+}
+
+#bg20:target ~ .box20{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg21{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg21:target{
+    display: block;
+}
+
+#bg21:target ~ .box21{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+#bg22{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg22:target{
+    display: block;
+}
+
+#bg22:target ~ .box22{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+.box01{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close01{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close01:hover{
+    opacity: 0.6;
+}
+
+.nome01{
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao01{
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo01{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+}
+
+.quantidade01{
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD01{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho01{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho01:hover{
+    background-color: #E89D65;
+}
+
+.box02{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close02{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close02:hover{
+    opacity: 0.6;
+}
+
+.nome02{
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao02{
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo02{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+}
+
+.quantidade02{
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD02{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho02{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho02:hover{
+    background-color: #E89D65;
+}
+
+.box03{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close03{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close03:hover{
+    opacity: 0.6;
+}
+
+.nome03{
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao03{
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo03{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+}
+
+.quantidade03{
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD03{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho03{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho03:hover{
+    background-color: #E89D65;
+}
+
+.box04{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close04{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close04:hover{
+    opacity: 0.6;
+}
+
+.nome04{
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao04{
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo04{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+}
+
+.quantidade04{
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD04{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho04{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho04:hover{
+    background-color: #E89D65;
+}
+
+.box05{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close05{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close05:hover{
+    opacity: 0.6;
+}
+
+.nome05{
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao05{
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo05{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+}
+
+.quantidade05{
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD05{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho05{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho05:hover{
+    background-color: #E89D65;
+}
+
+.box06{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close06{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close06:hover{
+    opacity: 0.6;
+}
+
+.nome06{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao06{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo06{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.quantidade06{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD06{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho06{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho06:hover{
+    background-color: #E89D65;
+}
+
+.box07{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close07{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close07:hover{
+    opacity: 0.6;
+}
+
+.nome07{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao07{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo07{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.quantidade07{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD07{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho07{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho07:hover{
+    background-color: #E89D65;
+}
+
+.box08{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close08{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close08:hover{
+    opacity: 0.6;
+}
+
+.nome08{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao08{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo08{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.quantidade08{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD08{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho08{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho08:hover{
+    background-color: #E89D65;
+}
+
+.box09{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close09{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close09:hover{
+    opacity: 0.6;
+}
+
+.nome09{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao09{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo09{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.quantidade09{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD09{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho09{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho09:hover{
+    background-color: #E89D65;
+}
+
+.box10{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close10{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close10:hover{
+    opacity: 0.6;
+}
+
+.nome10{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao10{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo10{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.quantidade10{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD10{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho10{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho10:hover{
+    background-color: #E89D65;
+}
+
+.box11{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close11{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close11:hover{
+    opacity: 0.6;
+}
+
+.nome11{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao11{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo11{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.quantidade11{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD11{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho11{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho11:hover{
+    background-color: #E89D65;
+}
+
+.box12{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close12{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close12:hover{
+    opacity: 0.6;
+}
+
+.nome12{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao12{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo12{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.quantidade12{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD12{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho12{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho12:hover{
+    background-color: #E89D65;
+}
+
+.box13{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close13{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close13:hover{
+    opacity: 0.6;
+}
+
+.nome13{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao13{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo13{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.tamanhoP01{
+    font-family: alegra;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+}
+
+.checkP01{
+    position: absolute;
+    left: 10px;
+    bottom: 47px;
+}
+
+.tamanhoM01{
+    font-family: alegra;
+    position: absolute;
+    left: 52px;
+    bottom: 24px;
+}
+
+.checkM01{
+    position: absolute;
+    left: 38px;
+    bottom: 47px;
+}
+
+.tamanhoG01{
+    font-family: alegra;
+    position: absolute;
+    left: 85px;
+    bottom: 24px;
+}
+
+.checkG01{
+    position: absolute;
+    left: 71px;
+    bottom: 47px;
+}
+
+.quantidade13{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD13{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho13{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho13:hover{
+    background-color: #E89D65;
+}
+
+.box14{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close14{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close14:hover{
+    opacity: 0.6;
+}
+
+.nome14{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao14{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo14{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.tamanhoP02{
+    font-family: alegra;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+}
+
+.checkP02{
+    position: absolute;
+    left: 10px;
+    bottom: 47px;
+}
+
+.tamanhoM02{
+    font-family: alegra;
+    position: absolute;
+    left: 52px;
+    bottom: 24px;
+}
+
+.checkM02{
+    position: absolute;
+    left: 38px;
+    bottom: 47px;
+}
+
+.tamanhoG02{
+    font-family: alegra;
+    position: absolute;
+    left: 85px;
+    bottom: 24px;
+}
+
+.checkG02{
+    position: absolute;
+    left: 71px;
+    bottom: 47px;
+}
+
+.quantidade14{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD14{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho14{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho14:hover{
+    background-color: #E89D65;
+}
+
+.box15{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close15{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close15:hover{
+    opacity: 0.6;
+}
+
+.nome15{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao15{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo15{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.tamanhoP03{
+    font-family: alegra;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+}
+
+.checkP03{
+    position: absolute;
+    left: 10px;
+    bottom: 47px;
+}
+
+.tamanhoM03{
+    font-family: alegra;
+    position: absolute;
+    left: 52px;
+    bottom: 24px;
+}
+
+.checkM03{
+    position: absolute;
+    left: 38px;
+    bottom: 47px;
+}
+
+.tamanhoG03{
+    font-family: alegra;
+    position: absolute;
+    left: 85px;
+    bottom: 24px;
+}
+
+.checkG03{
+    position: absolute;
+    left: 71px;
+    bottom: 47px;
+}
+
+.quantidade15{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD15{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho15{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho15:hover{
+    background-color: #E89D65;
+}
+
+.box16{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close16{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close16:hover{
+    opacity: 0.6;
+}
+
+.nome16{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao16{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo16{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.tamanhoP04{
+    font-family: alegra;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+}
+
+.checkP04{
+    position: absolute;
+    left: 10px;
+    bottom: 47px;
+}
+
+.tamanhoM04{
+    font-family: alegra;
+    position: absolute;
+    left: 52px;
+    bottom: 24px;
+}
+
+.checkM04{
+    position: absolute;
+    left: 38px;
+    bottom: 47px;
+}
+
+.tamanhoG04{
+    font-family: alegra;
+    position: absolute;
+    left: 85px;
+    bottom: 24px;
+}
+
+.checkG04{
+    position: absolute;
+    left: 71px;
+    bottom: 47px;
+}
+
+.quantidade16{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD16{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho16{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho16:hover{
+    background-color: #E89D65;
+}
+
+.box17{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close17{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close17:hover{
+    opacity: 0.6;
+}
+
+.nome17{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao17{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo17{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.tamanhoP05{
+    font-family: alegra;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+}
+
+.checkP05{
+    position: absolute;
+    left: 10px;
+    bottom: 47px;
+}
+
+.tamanhoM05{
+    font-family: alegra;
+    position: absolute;
+    left: 52px;
+    bottom: 24px;
+}
+
+.checkM05{
+    position: absolute;
+    left: 38px;
+    bottom: 47px;
+}
+
+.tamanhoG05{
+    font-family: alegra;
+    position: absolute;
+    left: 85px;
+    bottom: 24px;
+}
+
+.checkG05{
+    position: absolute;
+    left: 71px;
+    bottom: 47px;
+}
+
+.recheioNinho01{
+    font-family: alegra;
+    position: absolute;
+    left: 195px;
+    bottom: 25px;
+}
+
+.checkNinho01{
+    position: absolute;
+    left: 180px;
+    bottom: 48px;
+}
+
+.recheioPacoca01{
+    font-family: alegra;
+    position: absolute;
+    left: 195px;
+    bottom: -3px;
+}
+
+.checkPacoca01{
+    position: absolute;
+    left: 180px;
+    bottom: 20px;
+}
+
+.recheioOreo01{
+    font-family: alegra;
+    position: absolute;
+    left: 265px;
+    bottom: -3px;
+}
+
+.checkOreo01{
+    position: absolute;
+    left: 250px;
+    bottom: 20px;
+}
+
+.recheioDisquete01{
+    font-family: alegra;
+    position: absolute;
+    left: 265px;
+    bottom: 25px;
+}
+
+.checkDisquete01{
+    position: absolute;
+    left: 250px;
+    bottom: 48px;
+}
+
+.quantidade17{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD17{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho17{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho17:hover{
+    background-color: #E89D65;
+}
+
+.box18{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close18{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close18:hover{
+    opacity: 0.6;
+}
+
+.nome18{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao18{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo18{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.tamanhoP06{
+    font-family: alegra;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+}
+
+.checkP06{
+    position: absolute;
+    left: 10px;
+    bottom: 47px;
+}
+
+.tamanhoM06{
+    font-family: alegra;
+    position: absolute;
+    left: 52px;
+    bottom: 24px;
+}
+
+.checkM06{
+    position: absolute;
+    left: 38px;
+    bottom: 47px;
+}
+
+.tamanhoG06{
+    font-family: alegra;
+    position: absolute;
+    left: 85px;
+    bottom: 24px;
+}
+
+.checkG06{
+    position: absolute;
+    left: 71px;
+    bottom: 47px;
+}
+
+.recheioNinho02{
+    font-family: alegra;
+    position: absolute;
+    left: 195px;
+    bottom: 25px;
+}
+
+.checkNinho02{
+    position: absolute;
+    left: 180px;
+    bottom: 48px;
+}
+
+.recheioPacoca02{
+    font-family: alegra;
+    position: absolute;
+    left: 195px;
+    bottom: -3px;
+}
+
+.checkPacoca02{
+    position: absolute;
+    left: 180px;
+    bottom: 20px;
+}
+
+.recheioOreo02{
+    font-family: alegra;
+    position: absolute;
+    left: 265px;
+    bottom: -3px;
+}
+
+.checkOreo02{
+    position: absolute;
+    left: 250px;
+    bottom: 20px;
+}
+
+.recheioDisquete02{
+    font-family: alegra;
+    position: absolute;
+    left: 265px;
+    bottom: 25px;
+}
+
+.checkDisquete02{
+    position: absolute;
+    left: 250px;
+    bottom: 48px;
+}
+
+.quantidade18{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD18{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho18{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho18:hover{
+    background-color: #E89D65;
+}
+
+.box19{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close19{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close19:hover{
+    opacity: 0.6;
+}
+
+.nome19{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao19{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo19{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.tamanhoP07{
+    font-family: alegra;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+}
+
+.checkP07{
+    position: absolute;
+    left: 10px;
+    bottom: 47px;
+}
+
+.tamanhoM07{
+    font-family: alegra;
+    position: absolute;
+    left: 52px;
+    bottom: 24px;
+}
+
+.checkM07{
+    position: absolute;
+    left: 38px;
+    bottom: 47px;
+}
+
+.tamanhoG07{
+    font-family: alegra;
+    position: absolute;
+    left: 85px;
+    bottom: 24px;
+}
+
+.checkG07{
+    position: absolute;
+    left: 71px;
+    bottom: 47px;
+}
+
+.quantidade19{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD19{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho19{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho19:hover{
+    background-color: #E89D65;
+}
+
+.box20{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close20{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close20:hover{
+    opacity: 0.6;
+}
+
+.nome20{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao20{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo20{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.tamanhoP08{
+    font-family: alegra;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+}
+
+.checkP08{
+    position: absolute;
+    left: 10px;
+    bottom: 47px;
+}
+
+.tamanhoM08{
+    font-family: alegra;
+    position: absolute;
+    left: 52px;
+    bottom: 24px;
+}
+
+.checkM08{
+    position: absolute;
+    left: 38px;
+    bottom: 47px;
+}
+
+.tamanhoG08{
+    font-family: alegra;
+    position: absolute;
+    left: 85px;
+    bottom: 24px;
+}
+
+.checkG08{
+    position: absolute;
+    left: 71px;
+    bottom: 47px;
+}
+
+.quantidade20{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD20{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho20{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho20:hover{
+    background-color: #E89D65;
+}
+
+.box21{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close21{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close21:hover{
+    opacity: 0.6;
+}
+
+.nome21{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao21{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo21{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.tamanhoP09{
+    font-family: alegra;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+}
+
+.checkP09{
+    position: absolute;
+    left: 10px;
+    bottom: 47px;
+}
+
+.tamanhoM09{
+    font-family: alegra;
+    position: absolute;
+    left: 52px;
+    bottom: 24px;
+}
+
+.checkM09{
+    position: absolute;
+    left: 38px;
+    bottom: 47px;
+}
+
+.tamanhoG09{
+    font-family: alegra;
+    position: absolute;
+    left: 85px;
+    bottom: 24px;
+}
+
+.checkG09{
+    position: absolute;
+    left: 71px;
+    bottom: 47px;
+}
+
+.recheioNinho03{
+    font-family: alegra;
+    position: absolute;
+    left: 195px;
+    bottom: 25px;
+}
+
+.checkNinho03{
+    position: absolute;
+    left: 180px;
+    bottom: 48px;
+}
+
+.recheioPacoca03{
+    font-family: alegra;
+    position: absolute;
+    left: 195px;
+    bottom: -3px;
+}
+
+.checkPacoca03{
+    position: absolute;
+    left: 180px;
+    bottom: 20px;
+}
+
+.recheioOreo03{
+    font-family: alegra;
+    position: absolute;
+    left: 265px;
+    bottom: -3px;
+}
+
+.checkOreo03{
+    position: absolute;
+    left: 250px;
+    bottom: 20px;
+}
+
+.recheioDisquete03{
+    font-family: alegra;
+    position: absolute;
+    left: 265px;
+    bottom: 25px;
+}
+
+.checkDisquete03{
+    position: absolute;
+    left: 250px;
+    bottom: 48px;
+}
+
+.quantidade21{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD21{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho21{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho21:hover{
+    background-color: #E89D65;
+}
+
+.box22{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close22{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close22:hover{
+    opacity: 0.6;
+}
+
+.nome22{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao22{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo22{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.tamanhoP10{
+    font-family: alegra;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+}
+
+.checkP10{
+    position: absolute;
+    left: 10px;
+    bottom: 47px;
+}
+
+.tamanhoM10{
+    font-family: alegra;
+    position: absolute;
+    left: 52px;
+    bottom: 24px;
+}
+
+.checkM10{
+    position: absolute;
+    left: 38px;
+    bottom: 47px;
+}
+
+.tamanhoG10{
+    font-family: alegra;
+    position: absolute;
+    left: 85px;
+    bottom: 24px;
+}
+
+.checkG10{
+    position: absolute;
+    left: 71px;
+    bottom: 47px;
+}
+
+.recheioNinho04{
+    font-family: alegra;
+    position: absolute;
+    left: 195px;
+    bottom: 25px;
+}
+
+.checkNinho04{
+    position: absolute;
+    left: 180px;
+    bottom: 48px;
+}
+
+.recheioPacoca04{
+    font-family: alegra;
+    position: absolute;
+    left: 195px;
+    bottom: -3px;
+}
+
+.checkPacoca04{
+    position: absolute;
+    left: 180px;
+    bottom: 20px;
+}
+
+.recheioOreo04{
+    font-family: alegra;
+    position: absolute;
+    left: 265px;
+    bottom: -3px;
+}
+
+.checkOreo04{
+    position: absolute;
+    left: 250px;
+    bottom: 20px;
+}
+
+.recheioDisquete04{
+    font-family: alegra;
+    position: absolute;
+    left: 265px;
+    bottom: 25px;
+}
+
+.checkDisquete04{
+    position: absolute;
+    left: 250px;
+    bottom: 48px;
+}
+
+.quantidade22{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD22{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho22{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho22:hover{
+    background-color: #E89D65;
+}

@@ -1,0 +1,101 @@
+@font-face{
+    font-family: alegra;
+    src: url("../Fonts/alegreya-sans-black.ttf");
+}
+
+body
+{
+    font-family: alegra;
+    background-color: #F9C903 !important;
+}
+
+#barraSuperior{
+    background-color: #754316;
+    position: absolute;
+    margin: -10px;
+    padding: 180px;
+}
+
+#logo{
+    position: absolute;
+    width: 330px;
+    height: 270px;
+    left: 15px;
+    top: 30px;
+}
+
+#home{
+    color: #F9C903;
+    position: absolute;
+    width: 108px;
+    height: 39px;
+    left: 392px;
+    top: 30px;
+    font-size: 36px;
+    font-family: alegra;
+}
+
+#produtos{
+    color: #F9C903;
+    position: absolute;
+    width: 196px;
+    height: 43px;
+    left: 392px;
+    top: 115px;
+    font-size: 36px;
+    font-family: alegra;
+}
+
+#contato{
+    color: #F9C903;
+    position: absolute;
+    width: 169px;
+    height: 36px;
+    left: 392px;
+    top: 204px;
+    font-size: 36px;
+    font-family: alegra;
+}
+
+#sobre{
+    color: #F9C903;
+    position: absolute;
+    width: 144px;
+    height: 33px;
+    left: 392px;
+    top: 286px;
+    font-size: 36px;
+    font-family: alegra;
+}
+
+#separacaoSuperior{
+    position: absolute;
+    width: 4px;
+    height: 292px;
+    left: 720px;
+    top: 30px;
+    background: #F9C903;
+}
+
+#caixaSair{
+    position: absolute;
+    width: 160px;
+    height: 46px;
+    left: 950px;
+    top: 230px;
+    background: #D87A34;
+    color: #F9C903;
+    font-size: 28px;
+    font-family: alegra;
+}
+
+#tabela, td, th{
+    border: 4px solid #D87A34;
+    border-collapse: collapse;
+    text-align: center;
+    height: 30px;
+    padding: 15px;
+    border-spacing: 10px;
+    background-color: #fbf194;
+    font-size: 20px;
+}

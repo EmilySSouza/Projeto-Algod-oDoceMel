@@ -1,0 +1,493 @@
+@font-face{
+    font-family: alegra;
+    src: url("../Fonts/alegreya-sans-black.ttf");
+}
+
+body
+{
+    font-family: alegra;
+    background-color: #F9C903 !important;
+}
+
+
+.esquerda
+{
+    color: #F9C903;
+    text-align: center;
+    font-size: 28px;
+    margin-left: 90px;
+    position: absolute;
+}
+
+.direita
+{
+    color: #F9C903;
+    text-align: center;
+    font-size: 28px;
+    margin-left: 840px;
+    position: absolute;
+}
+
+input
+{
+    height: 38px;
+    width: 411px;
+    margin-right: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#logo{
+    position: absolute;
+    width: 330px;
+    height: 270px;
+    left: 15px;
+    top: 30px;
+}
+
+#home{
+    color: #F9C903;
+    position: absolute;
+    width: 108px;
+    height: 39px;
+    left: 392px;
+    top: 30px;
+    font-size: 36px;
+    font-family: alegra;
+}
+
+#produtos{
+    color: #F9C903;
+    position: absolute;
+    width: 196px;
+    height: 43px;
+    left: 392px;
+    top: 115px;
+    font-size: 36px;
+    font-family: alegra;
+}
+
+#contato{
+    color: #F9C903;
+    position: absolute;
+    width: 169px;
+    height: 36px;
+    left: 392px;
+    top: 204px;
+    font-size: 36px;
+    font-family: alegra;
+}
+
+#sobre{
+    color: #F9C903;
+    position: absolute;
+    width: 144px;
+    height: 33px;
+    left: 392px;
+    top: 286px;
+    font-size: 36px;
+    font-family: alegra;
+}
+
+#login{
+    color: #F9C903;
+    position: absolute;
+    width: 113px;
+    height: 27px;
+    left: 864px;
+    top: 49px;
+    font-size: 36px;
+}
+
+#senha{
+    color: #F9C903;
+    position: absolute;
+    width: 122px;
+    height: 32px;
+    left: 864px;
+    top: 137px;
+    font-size: 36px;
+    margin-top:20px;
+}
+
+#inputLogin{
+    position: absolute;
+    width: 404px;
+    height: 38px;
+    left: 864px;
+    top: 94px;
+}
+
+#inputSenha{
+    position: absolute;
+    width: 404px;
+    height: 38px;
+    left: 864px;
+    top: 178px;
+}
+
+input{
+    font-size: 20px;
+}
+
+#separacaoSuperior{
+    position: absolute;
+    width: 4px;
+    height: 292px;
+    left: 720px;
+    top: 30px;
+    background: #F9C903;
+}
+
+#caixaEntrar{
+    position: absolute;
+    width: 160px;
+    height: 46px;
+    top: 200px;
+    background: #D87A34;
+    color: #F9C903;
+    font-size: 28px;
+    font-family: alegra;
+}
+
+#caixaCadastrar{
+    position: absolute;
+    width: 214px;
+    height: 46px;
+    top: 200px;
+    left: 190px;
+    background: #D87A34;
+    color: #F9C903;
+    font-size: 28px;
+    font-family: alegra;
+}
+
+#adm{
+    position: absolute;
+    width: 162px;
+    height: 46px;
+    top: 165px;
+    color: #F9C903;
+    font-size: 20px;
+    font-family: alegra;
+}
+
+#listaProdutos span{
+    font-weight: bold;
+    font-family: alegra;
+}
+
+.text-after-line{
+    font-size: 18px;
+    font-family: alegra;
+}
+
+#listaProdutos h3{
+    margin-left:100px;
+    font-family: alegra;
+}
+
+#listaProdutos h6{
+    margin-top:20px;
+    font-family: alegra;
+}
+
+#listaProdutos p{
+    font-weight: bold;
+    font-size:16px;
+    font-family: alegra;
+}
+
+.linha-central hr{
+    border: 3px solid #754316;
+    font-family: alegra;
+}
+
+.lista{
+    max-width:100%;
+    font-family: alegra;
+}
+
+.lista li{
+    font-size:20px;
+    color:#000;
+    overflow:hidden;
+    display:flex;
+    font-family: alegra;
+}
+
+.lista li span{
+    white-space: nowrap;
+    font-family: alegra;
+}
+
+.text-after-line{
+    color:#000;
+    font-family: alegra;
+}
+
+.lista li div:before{
+    color:#000;
+    content:'------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------';
+    white-space: nowrap;
+    font-family: alegra;
+}
+
+.lista > a{
+    display:flex;
+    text-decoration:none;
+    font-family: alegra;
+}
+#personlizacao{
+    margin-top:100px;
+    font-family: alegra;
+}
+
+#personlizacao h5{
+    margin-bottom:30px;
+    font-family: alegra;
+}
+
+#personlizacao p{
+    font-size:1.1rem;
+    font-weight: bold;
+    font-family: alegra;
+}
+
+#personlizacao span{
+    font-weight: bold;
+    font-family: alegra;
+}
+
+.social-contacts{
+    padding-top:20px;
+    font-family: alegra;
+}
+
+.space-social-contacts{
+    padding-top:25px;
+    font-family: alegra;
+}
+
+#more-info p{
+    font-weight: bold;
+    font-family: alegra;
+}
+
+.LS{
+    position: absolute;
+    top: 30px;
+    left: 880px;
+}
+
+/* Pop-Up */ 
+
+#bg03{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg03:target{
+    display: block;
+}
+
+#bg03:target ~ .box03{
+    top:150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+.box03{
+    width: 550px;
+    height: 315px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -350px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close03{
+    color: #754316;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    right: 0;
+    top: 110px;
+}
+
+.close03:hover{
+    opacity: 0.6;
+}
+
+#bg01{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    display: none;
+}
+
+#bg01:target{
+    display: block;
+}
+
+#bg01:target ~ .box01{
+    top: 150px;
+    transition: all 0.3s;
+    transition-delay: 0.2s;
+}
+
+.box01{
+    width: 630px;
+    height: 210px;
+    position: absolute;
+    margin-left: -300px;
+    left: 50%;
+    top: -250px;
+    background-color: #FBF194;
+    border: 30px solid #fff;
+}
+
+.close01{
+    color: #fff;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    background-color: #754316;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    right: 0;
+    top: 0;
+}
+
+.close01:hover{
+    opacity: 0.6;
+}
+
+.nome01{
+    font-size: 20px;
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.descricao01{
+    font-family: alegra;
+    position: absolute;
+    left: 10px;
+    top: 65px;
+}
+
+.titulo01{
+    width: 565px;
+    background-color: #F5D665;
+    margin: 3px;
+    text-align: center;
+    font-family: alegra;
+}
+
+.quantidade01{
+    font-family: alegra;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.inputQTD01{
+    position: absolute;
+    left: 116px;
+    bottom: 20px;
+}
+
+.carrinho01{
+    width: 160px;
+    height: 35px;
+    color: #000;
+    background-color: #D87A34;
+    font-family: alegra;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carrinho01:hover{
+    background-color: #E89D65;
+}
+
+#voltar
+{
+    height: 30px;
+}
+
+#EntrarADM{
+    position: absolute;
+    left: 170px;
+    background-color: #D87A34;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#nome{
+    position: absolute;
+    width: 160px;
+    height: 46px;
+    left: 900px;
+    top: 30px;
+    font-size: 30px; 
+    color: #F9C903; 
+    font-family: alegra;
+}
+
+#meuPerfil{
+    position: absolute;
+    width: 200px;
+    height: 46px;
+    left: 900px;
+    top: 115px;
+    font-size: 30px; 
+    color: #F9C903; 
+    font-family: alegra;
+}
+
+#meusPedidos{
+    position: absolute;
+    width: 160px;
+    height: 46px;
+    left: 900px;
+    top: 204px;
+    color: #F9C903;
+    font-size: 28px;
+    font-family: alegra;
+}
+
+#caixaSair{
+    position: absolute;
+    width: 160px;
+    height: 46px;
+    left: 900px;
+    top: 286px;
+    background: #D87A34;
+    color: #F9C903;
+    font-size: 28px;
+    font-family: alegra;
+}
